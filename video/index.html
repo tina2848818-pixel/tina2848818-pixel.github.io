@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>動画をHTMLに埋め込む</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  /* title下　googlefontからコピペ */
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .video-wrapper {
+            width: 100%;
+            height: 90vh;   /* vh 画面いっぱいの高さ PCでもスマホでも */
+            position: fixed;  /*  動画を固定 */
+            top: 0;
+            left: 0;
+            z-index: -1; /* TEXTより上に重なっているので  */
+
+        }
+
+        video {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+            object-position: 30% 70%;/* X方向　Y方向 */
+        }
+
+.text_wrapper{
+    width: 50%;
+    padding: 200px 100px;
+    font-size: 48px;
+    margin-bottom: 50px;
+    background-color: #ffffff88;   /* カラーコード字も２ケタ透明度 */
+    font-family:  "Permanent Marker", cursive;  /* googlefontからコピペ */
+}
+
+p{
+    font-size: 18px;
+    line-height: 2;
+}
+
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="video-wrapper">
+        <video src="img/main2.mp4" controls></video> <!-- 再生ボタンができる -->
+    </div>
+
+    <div class="text_wrapper">
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, doloremque.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, fuga! Ad itaque odit officiis? Minima dolores placeat hic. Temporibus laudantium animi blanditiis sit id ipsa, pariatur sint perferendis. Autem rerum beatae impedit rem nihil ipsam reprehenderit assumenda blanditiis esse dolore perspiciatis aperiam quaerat voluptatibus ratione earum doloribus illum at ut quos sequi cum magnam, provident fugit. Reiciendis deserunt, tempora natus aut quo consectetur illo perspiciatis perferendis labore nam ducimus! Ratione officiis saepe asperiores reiciendis ex pariatur nihil consectetur consequuntur eum, voluptate voluptates quisquam sunt amet iusto eius praesentium perferendis id repellendus qui temporibus. Ut, id illo nostrum exercitationem ab vel. Aut, voluptatum molestiae doloremque corporis impedit quae rerum quod dolorum tempora neque distinctio est. Earum, minus. Mollitia, quae error. Reprehenderit aperiam fuga maxime deleniti repudiandae et laboriosam sequi doloremque autem nihil, tempore repellendus, incidunt quod soluta dolores rerum nobis voluptates illum neque voluptate sapiente nam corrupti amet est! Sint, ipsum distinctio maiores ab impedit tempore sed fuga saepe sequi repellat sit, repudiandae doloribus maxime eos rem facere aperiam dolorem temporibus blanditiis magni rerum! Quasi repellendus saepe in quod nesciunt laboriosam, vel tempora dolore possimus quam obcaecati necessitatibus suscipit placeat repellat quo fugiat voluptate amet? Perspiciatis, autem. Qui, atque in. Quibusdam.</p>
+    </div>
+
+
+
+
+</div>
+
+
+
+</body>
+
+</html>
