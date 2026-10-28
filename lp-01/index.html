@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f6f5ef">
+    <meta name="description" content="毎日の料理を、もっと軽やかに。暮らしに合わせて選べるエアフライヤー「Mellow」のラインアップをご紹介します。">
+    <title>Mellow | ひと皿から、暮らしが変わる。</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <a class="wordmark" href="#top" aria-label="Mellow トップページ">mellow<span>.</span></a>
+        <button class="menu-toggle" type="button" aria-label="メニューを開く" aria-expanded="false" aria-controls="global-nav">
+            <span></span><span></span>
+        </button>
+        <nav class="global-nav" id="global-nav" aria-label="メインナビゲーション">
+            <a href="#story">Mellowについて</a>
+            <a href="#lineup">ラインアップ</a>
+            <a href="#recipes">レシピ</a>
+            <a href="#faq">よくある質問</a>
+            <a class="nav-cta" href="#lineup">商品を選ぶ <span aria-hidden="true">↗</span></a>
+        </nav>
+    </header>
+
+    <main id="top">
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-copy">
+                <p class="eyebrow"><span></span> GOOD FOOD, GENTLE DAYS</p>
+                <h1 id="hero-title">ひと皿から、<br>暮らしが変わる。</h1>
+                <p class="hero-description">油は少なめ、よろこびはたっぷり。<br>いつもの食卓に、揚げたてのおいしさを。</p>
+                <a class="button button-dark" href="#lineup">あなたに合う一台を <span aria-hidden="true">↗</span></a>
+                <p class="hero-note">A little lighter. A lot more delicious.</p>
+            </div>
+            <div class="hero-visual">
+                <img src="https://placehold.jp/800x400.png?text=Main+Visual" alt="キッチンに置かれたエアフライヤー">
+                <div class="hero-stamp" aria-hidden="true"><span>毎日のごはんに</span><strong>余白を。</strong></div>
+                <p class="image-caption">MADE FOR YOUR EVERYDAY TABLE</p>
+            </div>
+            <a class="scroll-cue" href="#story"><span>SCROLL TO DISCOVER</span><i aria-hidden="true"></i></a>
+        </section>
+
+        <section class="intro section-pad" id="story" aria-labelledby="intro-title">
+            <div class="section-label"><span>01</span> WHY MELLOW</div>
+            <div class="intro-content">
+                <h2 id="intro-title">「おいしい」と<br>「ちょうどいい」を、<br><em>毎日の真ん中に。</em></h2>
+                <div class="intro-text">
+                    <p>忙しい日も、ゆっくり過ごす日も。食べたい気持ちに、すぐ応える一台があれば、食卓はもっと自由になる。</p>
+                    <p>Mellowは、熱風の力で外はさくっと、中はしっとり。気負わずつくれて、ちゃんとおいしい。そんな毎日の新しい定番です。</p>
+                </div>
+            </div>
+            <div class="feature-grid">
+                <article class="feature-item">
+                    <span class="feature-number">01</span>
+                    <div class="feature-icon" aria-hidden="true">◌</div>
+                    <h3>油は控えて、食感は軽やか</h3>
+                    <p>熱風をすみずみまで循環。少ない油でも、衣はカリッと香ばしく。</p>
+                    <span class="feature-en">CRISP, NOT GREASY</span>
+                </article>
+                <article class="feature-item feature-highlight">
+                    <span class="feature-number">02</span>
+                    <div class="feature-icon" aria-hidden="true">⌁</div>
+                    <h3>入れたらおまかせ、の気軽さ</h3>
+                    <p>温度と時間をセットするだけ。火加減を気にせず、もう一品へ。</p>
+                    <span class="feature-en">SET IT &amp; RELAX</span>
+                </article>
+                <article class="feature-item">
+                    <span class="feature-number">03</span>
+                    <div class="feature-icon" aria-hidden="true">✳</div>
+                    <h3>お手入れまで、シンプルに</h3>
+                    <p>バスケットは取り外して丸洗い。使う日が自然と増えていきます。</p>
+                    <span class="feature-en">EASY EVERY DAY</span>
+                </article>
+            </div>
+        </section>
+
+        <section class="lineup section-pad" id="lineup" aria-labelledby="lineup-title">
+            <div class="lineup-heading">
+                <div>
+                    <div class="section-label"><span>02</span> FIND YOUR MELLOW</div>
+                    <h2 id="lineup-title">暮らしに合わせて、<br><em>選べる3つのかたち。</em></h2>
+                </div>
+                <p>はじめての一台から、家族みんなの食卓まで。<br>ぴったりのサイズを見つけてください。</p>
+            </div>
+            <div class="product-grid" id="product-list" aria-live="polite"></div>
+            <div class="lineup-footnote"><span>ALL MODELS</span> 置き場所や人数に合わせてお選びいただけます。</div>
+        </section>
+
+        <section class="howto section-pad" aria-labelledby="howto-title">
+            <div class="howto-image">
+                <img src="https://placehold.jp/600x400.png?text=Item" alt="エアフライヤーで調理した料理">
+                <span class="image-index">A GOOD THING<br>TAKES THREE STEPS</span>
+            </div>
+            <div class="howto-copy">
+                <div class="section-label"><span>03</span> SIMPLE IS DELICIOUS</div>
+                <h2 id="howto-title">使い方は、<br>とてもシンプル。</h2>
+                <p class="howto-lead">いつもの食材が、ちょっと特別なひと皿に。</p>
+                <ol class="steps-list">
+                    <li><span>01</span><div><strong>食材を入れる</strong><p>バスケットに食材を並べます。</p></div></li>
+                    <li><span>02</span><div><strong>温度と時間をセット</strong><p>レシピに合わせてダイヤルを調整。</p></div></li>
+                    <li><span>03</span><div><strong>できあがりを楽しむ</strong><p>音が鳴ったら、熱々を召し上がれ。</p></div></li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="recipes section-pad" id="recipes" aria-labelledby="recipes-title">
+            <div class="recipes-heading">
+                <div>
+                    <div class="section-label"><span>04</span> FROM OUR KITCHEN</div>
+                    <h2 id="recipes-title">今日つくりたい、<em>おいしい理由。</em></h2>
+                </div>
+                <p>いつもの食材で、気軽においしく。</p>
+            </div>
+            <div class="recipe-grid">
+                <article class="recipe-card recipe-large">
+                    <img src="https://placehold.jp/600x400.png?text=Item" alt="こんがり焼いたチキン">
+                    <div class="recipe-meta"><span>MAIN DISH</span><span>約25分</span></div>
+                    <h3>外はパリッと、鶏ももロースト</h3>
+                    <p>皮目を上にして焼くだけ。ごちそう感のある定番メニュー。</p>
+                </article>
+                <article class="recipe-card">
+                    <img src="https://placehold.jp/600x400.png?text=Item" alt="揚げたてのフライドポテト">
+                    <div class="recipe-meta"><span>SNACK</span><span>約18分</span></div>
+                    <h3>ほくほくポテトフライ</h3>
+                    <p>少しのオイルで、素材の甘みを引き出します。</p>
+                </article>
+                <article class="recipe-card">
+                    <img src="https://placehold.jp/600x400.png?text=Item" alt="焼き色のついた野菜">
+                    <div class="recipe-meta"><span>VEGETABLE</span><span>約15分</span></div>
+                    <h3>野菜のごろごろグリル</h3>
+                    <p>季節の野菜を切って並べたら、あとはおまかせ。</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="voices section-pad" aria-labelledby="voices-title">
+            <div class="voices-heading">
+                <div class="section-label"><span>05</span> FROM OUR COMMUNITY</div>
+                <h2 id="voices-title">食卓に届いた、<em>うれしい声。</em></h2>
+            </div>
+            <div class="voice-grid" id="voice-list" aria-live="polite"></div>
+            <p class="voice-disclaimer">※掲載内容はご使用者さま個人の感想です。</p>
+        </section>
+
+        <section class="faq section-pad" id="faq" aria-labelledby="faq-title">
+            <div class="faq-heading">
+                <div class="section-label"><span>06</span> GOOD TO KNOW</div>
+                <h2 id="faq-title">よくあるご質問</h2>
+                <p>気になることに、お答えします。</p>
+            </div>
+            <div class="faq-list" id="faq-list"></div>
+        </section>
+
+        <section class="closing-cta" aria-label="商品一覧への案内">
+            <p class="eyebrow">A LITTLE MORE MELLOW</p>
+            <h2>今日の食卓に、<br>新しいお気に入りを。</h2>
+            <a class="button button-light" href="#lineup">ラインアップを見る <span aria-hidden="true">↗</span></a>
+            <span class="closing-mark" aria-hidden="true">m.</span>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <a class="wordmark footer-mark" href="#top">mellow<span>.</span></a>
+        <p class="footer-tagline">GOOD FOOD, GENTLE DAYS.</p>
+        <nav class="footer-nav" aria-label="フッターナビゲーション">
+            <a href="#story">ABOUT</a><a href="#lineup">LINEUP</a><a href="#recipes">RECIPES</a><a href="#faq">FAQ</a>
+        </nav>
+        <small>© 2026 MELLOW. ALL RIGHTS RESERVED.</small>
+    </footer>
+</body>
+</html>
